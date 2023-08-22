@@ -12,5 +12,3 @@ class HomePage:
     def shopItems(self):
         return self.driver.find_element(*HomePage.shop)      #shop is a class variable so using classname.variable = HomePage.shop
         #using * helps to deserialise and read the tuple
-
-    ##
